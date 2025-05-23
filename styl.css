@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    font-family: Century;
+    text-align: center;
+}
+
+.ban, .stopka{
+    background-color: Indigo;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+}
+
+.l1, .l2,.p1, .p2{
+    width: 50%;
+    height: 470px;
+}
+
+.main1, .main2{
+    display: flex;
+    /* grid-template-columns: repeat(2, 1fr); */
+    gap:2px
+}
+
+img{
+    display: block;
+    width:100%;
+
+    padding: 3px;
+    margin: 10px;
+    border: 2px slateblue dashed;
+}
+
+a{
+    color: white;
+}
+
+button{
+    background-color: slateblue;
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: indigo;
+}
+
+#slider, #slider2{
+   width: 80%;
+   display: block;
+}
+

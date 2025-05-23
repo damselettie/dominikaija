@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efekty obrazu</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <div class="ban"><h2>Efekty na obrazach</h2></div>
+    <div class="main1">
+        <div class="l1">
+            <img src="pszczola.jpg" alt="pszczoła na fioletowym kwiatku">
+            <div id="opcje1">
+            <select name="opcje" id="opcje">
+                <option value="Blur">Blur</option>
+                <option value="Sepia">Sepia</option>
+                <option value="Negatyw">Negatyw</option>
+            </select>
+            <button id="Zastosuj" onclick="Zastosuj()">Zastosuj</button>
+            </div>
+        </div>
+        <div class="p1"> <img src="pomarancza.jpg" alt="drzewo pomarańczy">
+        <div class="opcje2">
+        <button id="Kolorowy" onclick="Kolorowy()">Kolorowy</button>
+        <button id="Czarno-bialy" onclick="Czarnobialy()">Czarno-bialy</button></div>
+    </div>
+    </div>
+    <div class="main2">
+        <div class="l2"><img src="owoce.jpg" alt="Kosz pełen owoców">
+            <div class="opcje3">
+         <input type="range" min="1" max="100" value="100" id="slider">
+         <button id="Zastosuj3" onclick="Zastosuj3()">Zastosuj</button></div>
+        </div>
+        <div class="p2"><img src="zolw.jpg" alt="Żółw w wodzie">
+        <div class="opcje4">
+        <input type="range" min="0" max="250"  id="slider2">
+        <button id="Zastosuj4" onclick="Zastosuj4()">Zastosuj</button></div>
+        </div>
+    </div>
+    <div class="stopka"> <p><a href="http://www.css.com/" target="_blank" >Zobacz inne efekty
+obrazu</a></p></div>
+</body>
+</html>
